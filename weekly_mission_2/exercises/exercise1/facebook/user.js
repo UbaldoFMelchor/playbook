@@ -1,7 +1,6 @@
 const user = {
     name: "Ubaldo F",
-    friends: 214,
-    location: "xalapa",
-    createData: "may 2010",
-    hobbys: 4,    
+    mail: "ubaldofmelchor97@hotmail.com",
+    url: "https://www.facebook.com/ubxido/",
+    picture: "imgprofile"
 }
