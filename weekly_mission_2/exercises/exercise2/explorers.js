@@ -58,3 +58,5 @@ const explorers = [
       }
     }
    ]
+
+   explorers.forEach(nam => console.log(nam.name))
