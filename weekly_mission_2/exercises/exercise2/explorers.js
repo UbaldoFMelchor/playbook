@@ -69,3 +69,6 @@ const explorers = [
 
    const locationCDMX = explorers.find((exp) => exp.city == "CDMX")
    console.log("explorers que viven en CDMX: " +locationCDMX.name)
+
+   const totalExCom = explorers.reduce((acc, exp) => acc + exp.exercises_completed, 0)
+   console.log("total de ejercicios completados: " + totalExCom)
