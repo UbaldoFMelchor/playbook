@@ -65,7 +65,7 @@ const explorers = [
    console.log(listStacks)
 
    const stackJS = explorers.filter(exp => exp.stack.includes("js"))
-   console.log("explorers con stack en JS: " + stackJS.name)
+   console.log(stackJS)
 
    const locationCDMX = explorers.find((exp) => exp.city == "CDMX")
    console.log("explorers que viven en CDMX: " +locationCDMX.name)
