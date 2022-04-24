@@ -79,3 +79,6 @@ const explorers = [
    const totalExCom = explorers.reduce((acc, exp) => acc + exp.exercises_completed, 0)
    console.log("total de ejercicios completados: " + totalExCom)
 
+   console.log("7. Obtén la validación si al menos uno de los explorers tiene la propiedad exercisesFinished en frontend como true, usa SOME")
+   const front = explorers.some(exp => exp.missions.frontend.exercisesFinished === true)
+   console.log(front)
