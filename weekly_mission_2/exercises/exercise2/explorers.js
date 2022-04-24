@@ -60,6 +60,10 @@ const explorers = [
    ]
 
    explorers.forEach(exp => console.log(exp.name + " " + exp.stack))
+
    const listStacks = explorers.map ((exp) => exp.stack)
    console.log(listStacks)
+   
+   const stackJS = explorers.filter(exp => exp.stack.includes(js))
+   console.log(stackJS)
 
