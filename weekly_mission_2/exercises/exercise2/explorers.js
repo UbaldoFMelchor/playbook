@@ -63,7 +63,7 @@ const explorers = [
 
    const listStacks = explorers.map ((exp) => exp.stack)
    console.log(listStacks)
-   
-   const stackJS = explorers.filter(exp => exp.stack.includes(js))
+
+   const stackJS = explorers.filter(exp => exp.stack.includes("js"))
    console.log(stackJS)
 
