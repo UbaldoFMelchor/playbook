@@ -59,4 +59,4 @@ const explorers = [
     }
    ]
 
-   explorers.forEach(nam => console.log(nam.name))
+   explorers.forEach(exp => console.log(exp.name + " " + exp.stack))
