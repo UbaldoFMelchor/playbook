@@ -67,3 +67,5 @@ const explorers = [
    const stackJS = explorers.filter(exp => exp.stack.includes("js"))
    console.log(stackJS)
 
+   const locationCDMX = explorers.find((exp) => exp.city == "CDMX")
+   console.log(locationCDMX)
